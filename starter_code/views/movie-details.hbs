@@ -1,0 +1,21 @@
+
+<div class="flex-container">
+        
+          <img  src="{{movie.image}}" alt="" class="artist-img">
+        
+        <div class="artist-info-container">
+            <a href="/movies">See more</a>
+          <h2>{{movie.title}}</h2>
+          <h4>Director:{{movie.director}}</h4>
+          <h5>Stars</h5>
+          <ul>
+              <li>{{movie.stars.[0]}}</li>
+              <li>{{movie.stars.[1]}}</li>
+              <li>{{movie.stars.[2]}}</li>
+          </ul>
+          <p>{{movie.description}}</p>
+          {{#each movie.showtimes}}
+            <span>{{this}}|</span>
+          {{/each}}
+        </div>
+</div>

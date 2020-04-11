@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.home-container {
+  background-image: url("/images/cinema.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white; }
+
+.home-search {
+  background-color: black;
+  border-radius: 12px;
+  padding: 15px;
+  color: lightblue;
+  background-color: white;
+  border: 1px solid #ff6666; }
+
+.flexHome {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50vw;
+  position: relative;
+  left: 1000px;
+  top: 100px; }
+
+.flexHome h1 {
+  font: 120px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.artist-container {
+  padding: 10px 30px; }
+
+.artist-img {
+  width: 50%; }
+
+.artist-info-container {
+  background-color: white;
+  text-align: left;
+  padding-bottom: 10px; }
+
+.flex-container {
+  display: flex; }
+
+.flex-img {
+  width: 50%;
+  
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
